@@ -11,10 +11,10 @@ class HelpObject:
     def setDesc(self, desc):
         self.__desc = desc
 
-    def setEx2(self, ex1):
+    def setEx1(self, ex1):
         self.__ex1 = ex1
     
-    def setEx1(self, ex2):
+    def setEx2(self, ex2):
         self.__ex2 = ex2
 
 # Class Gettors
