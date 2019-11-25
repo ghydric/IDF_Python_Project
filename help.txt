@@ -2,12 +2,11 @@
 
 Copied from: https://docs.python.org/3/library/os.html
 
-Description: This module provides a portable way of using operating system dependent 
-functionality. If you just want to read or write a file see open(), if you want to
-manipulate paths, see the os.path module, and if you want to read all the lines in all
-the files on the command line see the fileinput module. For creating temporary files and
-directories see the tempfile module, and for high-level file and directory handling see 
-the shutil module.
+This module provides a portable way of using operating system dependent functionality.
+If you just want to read or write a file see open(), if you want to manipulate paths,
+see the os.path module, and if you want to read all the lines in all the files on the
+command line see the fileinput module. For creating temporary files and directories see
+the tempfile module, and for high-level file and directory handling see the shutil module.
 
 Example 1 - os.system('command as a string')
 This method allows you to run system commands through python. Simply pass the command
@@ -18,20 +17,17 @@ This method allows you to check the status of a file. It returns numbers that re
 in order, the file type and mode bits, inode (Unix) or file index (Windows), device id,
 number of hard links, id of file owner, group id of file owner, size of file in bytes,
 time of most recent access in seconds, time of most recent modification in seconds, and
-time of metadata change (Unix) or time of creation (Windows) in nanoseconds. Returns an
-error if file doesn't exist.
+time of metadata change (Unix) or time of creation (Windows).
 
 *****Python sys library.*****
 
 Copied from: https://docs.python.org/3/library/sys.html
 
-Description: This module provides access to some variables used or maintained by the
-interpreter  and to functions that interact strongly with the interpreter. It is always 
-available.
+This module provides access to some variables used or maintained by the interpreter and to
+functions that interact strongly with the interpreter. It is always available.
 
 Example 1 - sys.executable
-This method tells you the exact path Python is executing from. Notice the lack of 
-paranthesis.
+This method tells you the exact path Python is executing from. Notice the lack of paranthesis.
 
 Example 2 - sys.getwindowsversion()
 This method tells you what windows version is being used while this program is executing.
