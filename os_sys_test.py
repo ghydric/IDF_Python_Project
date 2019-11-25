@@ -2,7 +2,8 @@ import os
 
 print(os.getlogin())
 print(os.stat('help.txt'))
-print(os.system('dir'))
+print(os.getpid())
+print(os.getppid())
 
 import sys
 
